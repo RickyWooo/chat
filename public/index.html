@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Let's Ri-Chat</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.1.0/socket.io.dev.js"></script>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <div id="chat-room">
+        <h1>Ri-Chat</h1>
+        <div id="message-board" >
+            <p id="dialog"></p>
+        </div>
+        <div id="log"></div>
+        <div id="messagebox">
+            <input id="message" type="text"  autofocus="true"; autocomplete="off" placeholder="Type your message here..." />
+        </div>
+    </div>
+    <div id="welcome" style="width:60%; padding: 10% 20%;">
+            <h1 style="color:black;  font-size:80px; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif">Enter Your Name:<h1>
+            <input style="width:600px; height:80px; font-size:70px" id="name" type="text" autofocus="true"; autocomplete="off" placeholder="Name" />
+    </div>
+    <script src="/main.js"></script>
+</body>
+</html>

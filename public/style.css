@@ -1,0 +1,36 @@
+body{
+    font-family: 'Verdana';
+}
+
+h1{
+    font-size: 28px;
+    padding: 2px 5px;
+    color: #575ed8;
+}
+#chat-room{
+    border-style: groove;
+    
+}
+#message-board{
+    border-style: groove;
+    overflow: auto;
+    height: 550px;
+    float: left;
+    width: 80%;
+    background-color: rgb(241, 241, 241);
+}
+#log{
+    border-style: groove;
+    overflow:auto;
+    height: 550px;
+    float: right;
+    width: 19%;
+}
+
+input{
+    padding: 20px 20px;
+}
+#message{
+    width: 97%;
+    font-size:24px
+}
